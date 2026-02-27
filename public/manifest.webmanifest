@@ -1,0 +1,11 @@
+{
+  "name": "Diary3",
+  "short_name": "Diary3",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#5B6CFF",
+  "icons": [
+    {"src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

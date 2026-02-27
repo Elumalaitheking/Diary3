@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#5B6CFF" />
+  <title>Diary3 - Private Life Log</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div>
+        <h1>Diary3</h1>
+        <p class="subtitle">Your private reflection space</p>
+      </div>
+      <button id="themeToggle" class="ghost-btn">🌙</button>
+    </header>
+
+    <main>
+      <section id="authView" class="card auth-card">
+        <h2>Welcome back</h2>
+        <form id="authForm">
+          <input type="text" id="displayName" placeholder="Display name (for signup)" />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+          <div class="row">
+            <button type="submit" class="primary" data-mode="login">Login</button>
+            <button type="button" id="registerBtn" class="secondary">Register</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="dashboard" class="hidden">
+        <div id="home" class="view active"></div>
+        <div id="new-entry" class="view"></div>
+        <div id="calendar" class="view"></div>
+        <div id="reminders" class="view"></div>
+        <div id="profile" class="view"></div>
+      </section>
+    </main>
+
+    <nav id="bottomNav" class="bottom-nav hidden">
+      <button data-target="home" class="active">Home</button>
+      <button data-target="new-entry">New</button>
+      <button data-target="calendar">Calendar</button>
+      <button data-target="reminders">Remind</button>
+      <button data-target="profile">Profile</button>
+    </nav>
+  </div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
