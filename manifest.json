@@ -1,0 +1,15 @@
+{
+  "name": "Calm Diary",
+  "short_name": "Diary",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f0e8",
+  "theme_color": "#8fb9a8",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' rx='42' fill='%238fb9a8'/%3E%3Cpath d='M74 56h108a20 20 0 0 1 20 20v104a20 20 0 0 1-20 20H74V56z' fill='%23fffaf3'/%3E%3Cpath d='M94 88h70M94 118h70M94 148h48' stroke='%238a7a6d' stroke-width='12' stroke-linecap='round'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
